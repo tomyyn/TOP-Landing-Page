@@ -1,4 +1,5 @@
 body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -161,6 +162,42 @@ body{
     background-color: ivory;
     flex: 1 1 auto;
     height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.callBox{
+    background-color: rgb(59, 104, 14);
+    height: 150px;
+    width: 620px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0px 80px;
+    justify-content: space-between;
+    color:ivory;
+}
+
+.callText1{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.callText2{
+    inline-size: 400px;
+    overflow-wrap: break-word;
+}
+
+.callButton{
+    color:ivory;
+    background-color: rgb(59, 104, 14);
+    margin:0px;
+    border-color: ivory;
+    font-size: 14px;
+    padding: 4px 20px;
+    border-radius: 10px;
+
 }
 
 .footer{
