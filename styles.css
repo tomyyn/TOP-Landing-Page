@@ -3,6 +3,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content:space-between;
+    margin:0px;
 }
 
 .headerIcon{
@@ -133,8 +134,28 @@ body{
     background-color: rgb(176, 238, 157);
     flex: 1 1 auto;
     height: 400px;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    justify-content: center;
 } 
+
+.quotePhrase{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    inline-size: 500px;
+    overflow-wrap: break-word;
+    color:#1F2937;
+}
+
+.quoteName{
+    font-size: 20px;
+    font-weight: bold;
+    width: 480px;
+    text-align: right;
+}
 
 .sec4{
     background-color: ivory;
