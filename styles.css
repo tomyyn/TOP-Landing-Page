@@ -89,13 +89,51 @@ body{
 .sec2{
     background-color: rgb(226, 236, 226);
     flex: 1 1 auto;
-    height: 500px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    gap:50px;
+}
+
+.randInfo{
+    font-size: 36px;
+    font-weight: lighter;
+    color:#1F2937
+}
+
+.addInfos{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+}
+
+.addInfoContainer{
+    width:120px;
+}
+
+.addInfo{
+    text-align: center;
+}
+
+
+
+.addInfoContainer img{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    border: solid 10px;
+    padding:0px;
+    border-color: rgb(45, 82, 9);
 }
 
 .sec3{
     background-color: rgb(176, 238, 157);
     flex: 1 1 auto;
     height: 400px;
+
 } 
 
 .sec4{
