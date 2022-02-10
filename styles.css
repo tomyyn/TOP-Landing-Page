@@ -45,7 +45,45 @@ body{
 
 .sec1{
     flex-grow: 1;
-    height: 350px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec1 img{
+    height: 300px;
+}
+
+.hero.container{
+    display: flex;
+    gap:10px;
+    flex-direction: column;
+}
+
+.hero.main{
+    font-size: 48px;
+    font-weight:bolder;
+    color:#F9FAF8;
+    inline-size: 500px;
+    overflow-wrap: break-word;
+}
+
+.hero.secondary{
+    font-size: 18px;
+    color:#E5E7EB;
+    inline-size: 600px;
+    overflow-wrap: break-word;
+}
+
+.hero.button{
+    border-radius: 8px;
+    background-color: rgb(59, 104, 14);
+    border:0px;
+    padding:12px;
+    font-weight: bold;
+    font-size: 20;
+    color:#E5E7EB;
 }
 
 .sec2{
